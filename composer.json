@@ -1,0 +1,24 @@
+{
+    "name": "persgeek/payment",
+    "description": "Payment",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PG\\Payment\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Saeed Johari",
+            "email": "persgeek@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.1"
+    }
+}
